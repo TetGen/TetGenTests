@@ -23,6 +23,8 @@
 
 
 set(TETGEN_TESTS
+  # --- poly/ ---
+  "poly/example.poly|-pqQ|-pqa0.001"
   # --- smesh/ ---
   "smesh/slit-1.smesh|-pqQ|-pqa0.001"
   "smesh/slit-2.smesh|-pqQ|-pqa0.001"
