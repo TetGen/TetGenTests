@@ -21,28 +21,27 @@
 #
 # Generated from the current test repository.  Adapt as needed.
 
-set(TETGEN_DEFAULT_FLAGS "-pQ|-pqQ")
 
 set(TETGEN_TESTS
   # --- smesh/ ---
-  "smesh/slit-1.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/slit-2.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/slit-5.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/slit-7.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/slit-10.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/spike-1-7.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/spike-1-10.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/spike-2-7.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/spike-2-10.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/spike-5-7.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/spike-5-10.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/spike-10-4.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/spike-10-7.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/spike-10-10.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/stanfordbunny.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/wedge-1.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/wedge-2.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/wedge-5.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/wedge-7.smesh|${TETGEN_DEFAULT_FLAGS}"
-  "smesh/wedge-10.smesh|${TETGEN_DEFAULT_FLAGS}"
+  "smesh/slit-1.smesh|-pqQ|-pqa0.001"
+  "smesh/slit-2.smesh|-pqQ|-pqa0.001"
+  "smesh/slit-5.smesh|-pqQ|-pqa0.001"
+  "smesh/slit-7.smesh|-pqQ|-pqa0.001"
+  "smesh/slit-10.smesh|-pqQ|-pqa0.001"
+  "smesh/spike-1-7.smesh|-pqQ|-pqa0.00001"
+  "smesh/spike-1-10.smesh|-pqQ|-pqa0.00001"
+  "smesh/spike-2-7.smesh|-pqQ|-pqa0.00001"
+  "smesh/spike-2-10.smesh|-pqQ|-pqa0.00001"
+  "smesh/spike-5-7.smesh|-pqQ|-pqa0.00001"
+  "smesh/spike-5-10.smesh|-pqQ|-pqa0.00001"
+  "smesh/spike-10-4.smesh|-pqQ|-pqa0.00001"
+  "smesh/spike-10-7.smesh|-pqQ|-pqa0.00001"
+  "smesh/spike-10-10.smesh|-pqQ|-pqa0.00001"
+  "smesh/stanfordbunny.smesh|-pqQ"
+  "smesh/wedge-1.smesh|-pqQ|-pqa0.001"
+  "smesh/wedge-2.smesh|-pqQ|-pqa0.001"
+  "smesh/wedge-5.smesh|-pqQ|-pqa0.001"
+  "smesh/wedge-7.smesh|-pqQ|-pqa0.001"
+  "smesh/wedge-10.smesh|-pqQ|-pqa0.001"
 )
