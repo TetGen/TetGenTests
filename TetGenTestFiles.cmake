@@ -25,7 +25,7 @@
 set(TETGEN_TESTS
   # --- tetgen/ ---
   "tetgen/example.poly|-pqQ|-pqa0.001"
-  # --- smesh/ ---
+  # --- testingdrafts/ ---
   "testingdrafts/slit-1.smesh|-pqQ|-pqa0.001"
   "testingdrafts/slit-2.smesh|-pqQ|-pqa0.001"
   "testingdrafts/slit-5.smesh|-pqQ|-pqa0.001"
@@ -46,4 +46,8 @@ set(TETGEN_TESTS
   "testingdrafts/wedge-5.smesh|-pqQ|-pqa0.001"
   "testingdrafts/wedge-7.smesh|-pqQ|-pqa0.001"
   "testingdrafts/wedge-10.smesh|-pqQ|-pqa0.001"
+  # --- meshlab/ ---
+  "meshlab/ascii-screwdriver.ply|-pqQ|"
+  "meshlab/casting.off|-pqQ|"
+  "meshlab/knot_max_simplified.stl|-pqQ|"
 )
