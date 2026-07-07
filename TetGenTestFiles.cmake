@@ -24,7 +24,27 @@
 
 set(TETGEN_TESTS
   # --- tetgen/ ---
-  "tetgen/example.poly|-pqQ|-pqa0.001"
+  "tetgen/balls3astr_12_16_20.poly|-p|-pY|-pq|-pqY"
+  "tetgen/cav1.poly|-p|-pY|-pq|-pqY"
+  "tetgen/cav2.poly|-p|-pY|-pq|-pqY"
+  "tetgen/Charl-test.poly|-p|-pY|-pq|-pqY"
+  "tetgen/CutSphere.poly|-p|-pY|-pq|-pqY"
+  "tetgen/daubc-test2.poly|-p|-pY|-pq|-pqY"
+  "tetgen/donut.poly|-p|-pY|-pq|-pqY"
+  "tetgen/example.poly|-p|-pY|-pq|-pqY"
+  "tetgen/gear.poly|-p|-pY|-pq|-pqY"
+  "tetgen/gm.poly|-p|-pY|-pq|-pqY"
+  "tetgen/model1.poly|-p|-pY|-pq|-pqY"
+  "tetgen/model2.poly|-p|-pY|-pq|-pqY"
+  "tetgen/obj_3.poly|-p|-pY|-pq|-pqY"
+  "tetgen/onera-m6.poly|-p|-pY|-pq|-pqY"
+  "tetgen/Paine.poly|-p|-pY|-pq|-pqY"
+  "tetgen/schoenhardt.poly|-p|-pY|-pq|-pqY"
+  "tetgen/socket2.poly|-p|-pY|-pq|-pqY"
+  "tetgen/socket.poly|-p|-pY|-pq|-pqY"
+  "tetgen/tahol.poly|-p|-pY|-pq|-pqY"
+  "tetgen/tire.poly|-p|-pY|-pq|-pqY"
+  "tetgen/truncated.poly|-p|-pY|-pq|-pqY"
   # --- testingdrafts/ ---
   "testingdrafts/slit-1.smesh|-pqQ|-pqa0.001"
   "testingdrafts/slit-2.smesh|-pqQ|-pqa0.001"
