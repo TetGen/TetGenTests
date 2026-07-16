@@ -1,25 +1,4 @@
 # Tetgen input file
-# Created with c++ class WRITEPOLY
-
-#Dear Mr Hang Si, 
-#
-#I am using tetgen version v1.4.3 to try to generate a mesh for some
-#geological problem. When I use the the attached file I get the following
-#error (tetgen -pgqAa Paine.poly): 
-#
-#tetgen: tetgen.cxx:7064: double tetgenmesh::insphere_s(double*, double*,
-#double*, double*, double*): Assertion `oriB != 0.0' failed.
-#Aborted
-#
-#
-#I have tried to find the problem for a week now - without success. If
-#you have some time, could you please give me some help?
-#
-#Thank you very much, 
-#Robert 
-#robert <robert.bodner@unil.ch>
-
-
 # Part 1 - the node list.
 5487 3 0 0
 
